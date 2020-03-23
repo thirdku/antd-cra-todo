@@ -1,0 +1,63 @@
+.site-layout-content {
+  background: #fff;
+  padding: 20px;
+  min-height: 280px;
+}
+.logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 0px -40px;
+  float: left;
+}
+  [data-theme="dark"] .site-layout-content {
+    background: #141414;
+  }
+  [data-theme="dark"] .logo {
+    background: rgba(255,255,255,0.3);
+  }
+  .div-content{
+    position: relative;
+    left: -32px;
+    top: -4px;
+  }
+  .content{
+    position: absolute;
+    left: 25px;
+    top: 50px;
+  }
+  .card{
+    min-width: 150px;
+  }
+ 
+  .form{
+    position: relative;
+    top: 0px;
+  }
+  .button{
+  }
+  .div-todo{
+    padding-left:15px;
+    top: -10px;
+    margin:4px;
+    
+    font-size: 20px;
+    font-weight: 400;
+    color:black;
+  }
+  .todos{
+    margin-top:18px;
+    margin-left:-5px;
+  }
+  .delete-button{
+    position: relative;
+    margin-left:10px;
+    margin-right:0px;
+  }
+  .layout{
+    margin: 0;
+    padding:0;
+  }
+  .todoform{
+    padding-top:70px;
+  }
